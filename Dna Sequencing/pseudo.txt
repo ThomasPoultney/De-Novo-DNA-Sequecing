@@ -1,0 +1,18 @@
+//Find Edge with odd indicy
+Loop over alll nodes
+	balence = indegree - outdegree
+	if balence = 1
+		add to startNode list
+	count total number of edges
+
+//all edges are not explored	
+while exploredEdges < total number of edges
+	getAdjacnetNode of startNode
+	
+	//if adjacent node is still connected it is a valid edge to remove.
+	if(AdjacentNode is still connected)
+		removeEdge from adjacentList of start node
+		repeat for new node
+		until all edges are explored.
+Infer sequence from the edges that were explored
+		
